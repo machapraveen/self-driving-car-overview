@@ -45,12 +45,30 @@ const ProjectOverview: React.FC = () => {
       
       <section>
         <h3 className="text-lg font-semibold mb-2">Challenges and Considerations</h3>
-        <ul className="list-disc pl-5">
+        <ul className="list-disc pl-5 mb-4">
           <li>Ensuring model generalization to various driving scenarios</li>
           <li>Balancing computation efficiency with model accuracy</li>
           <li>Addressing ethical considerations in decision-making algorithms</li>
           <li>Preparing for potential real-world testing and safety measures</li>
         </ul>
+        
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+          <img 
+            src="/images/challenge1.jpg" 
+            alt="Challenge 1: Model Generalization" 
+            className="w-full h-auto object-cover rounded-lg shadow-md"
+          />
+          <img 
+            src="/images/challenge2.jpg" 
+            alt="Challenge 2: Ethical Considerations" 
+            className="w-full h-auto object-cover rounded-lg shadow-md"
+          />
+          <img 
+            src="/images/challenge3.jpg" 
+            alt="Challenge 3: Real-world Testing" 
+            className="w-full h-auto object-cover rounded-lg shadow-md"
+          />
+        </div>
       </section>
     </div>
   );
