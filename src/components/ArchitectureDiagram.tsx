@@ -2,9 +2,9 @@ import React from 'react';
 
 const ArchitectureDiagram: React.FC = () => {
   return (
-    <div className="overflow-auto" style={{ maxHeight: '600px', maxWidth: '100%' }}>
-      <div style={{ minWidth: '1000px', minHeight: '800px' }}> {/* Increased size for better visibility */}
-        <svg viewBox="0 0 1000 800" className="w-full h-auto">
+    <div className="overflow-x-auto">
+      <div className="min-w-[800px]"> {/* Minimum width to prevent squishing on small screens */}
+        <svg viewBox="0 0 1000 800" className="w-full h-auto"> {/* Increased size for better visibility */}
           <defs>
             <marker id="arrowhead" markerWidth="10" markerHeight="7" 
               refX="0" refY="3.5" orient="auto">

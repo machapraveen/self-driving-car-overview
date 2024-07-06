@@ -2,6 +2,8 @@ import React from 'react';
 
 const MindMap: React.FC = () => {
   return (
+    <div className="overflow-x-auto">
+    <div className="min-w-[600px]"> {/* Minimum width to prevent squishing on small screens */}
     <svg viewBox="0 0 800 600" className="w-full h-auto">
       <g transform="translate(400,300)">
         {/* Root node */}
@@ -55,6 +57,8 @@ const MindMap: React.FC = () => {
         </g>
       </g>
     </svg>
+    </div>
+    </div>
   );
 };
 

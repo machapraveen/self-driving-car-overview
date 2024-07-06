@@ -52,22 +52,28 @@ const ProjectOverview: React.FC = () => {
           <li>Preparing for potential real-world testing and safety measures</li>
         </ul>
         
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-          <img 
-            src="/images/challenge1.jpg" 
-            alt="Challenge 1: Model Generalization" 
-            className="w-full h-auto object-cover rounded-lg shadow-md"
-          />
-          <img 
-            src="/images/challenge2.jpg" 
-            alt="Challenge 2: Ethical Considerations" 
-            className="w-full h-auto object-cover rounded-lg shadow-md"
-          />
-          <img 
-            src="/images/challenge3.jpg" 
-            alt="Challenge 3: Real-world Testing" 
-            className="w-full h-auto object-cover rounded-lg shadow-md"
-          />
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
+          <div className="aspect-w-16 aspect-h-9">
+            <img 
+              src="/images/challenge1.jpg" 
+              alt="Challenge 1: Model Generalization" 
+              className="w-full h-full object-cover rounded-lg shadow-md"
+            />
+          </div>
+          <div className="aspect-w-16 aspect-h-9">
+            <img 
+              src="/images/challenge2.jpg" 
+              alt="Challenge 2: Ethical Considerations" 
+              className="w-full h-full object-cover rounded-lg shadow-md"
+            />
+          </div>
+          <div className="aspect-w-16 aspect-h-9">
+            <img 
+              src="/images/challenge3.jpg" 
+              alt="Challenge 3: Real-world Testing" 
+              className="w-full h-full object-cover rounded-lg shadow-md"
+            />
+          </div>
         </div>
       </section>
     </div>
